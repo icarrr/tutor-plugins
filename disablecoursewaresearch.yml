@@ -1,0 +1,5 @@
+name: disablecoursewaresearch
+version: 1.0.0
+patches:
+  lms-env-features: |
+    "ENABLE_COURSEWARE_SEARCH": false

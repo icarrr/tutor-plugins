@@ -1,0 +1,5 @@
+name: disable-studio-sso-over-lms
+version: 1.0.0
+patches:
+  common-env-features: |
+    "DISABLE_STUDIO_SSO_OVER_LMS": true

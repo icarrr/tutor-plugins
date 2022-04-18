@@ -1,0 +1,5 @@
+name: request-creator
+version: 1.0.0
+patches:
+  cms-env-features: |
+    "STUDIO_REQUEST_EMAIL": "research@sibunglon.com"

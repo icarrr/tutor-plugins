@@ -1,0 +1,19 @@
+name: session-and-cookie
+version: 1.0.0
+patches:
+  lms-env: |
+    "BASE_COOKIE_DOMAIN": ".sibunglon.com", 
+    "SESSION_COOKIE_DOMAIN": ".sibunglon.com", 
+    "SESSION_COOKIE_NAME": "sessionid", 
+    "SESSION_COOKIE_SECURE": true, 
+    "CROSS_DOMAIN_CSRF_COOKIE_DOMAIN": ".sibunglon.com", 
+    "CROSS_DOMAIN_CSRF_COOKIE_NAME": "csrftoken", 
+    "CSRF_COOKIE_SECURE": false
+  cms-env: |
+    "BASE_COOKIE_DOMAIN": ".sibunglon.com", 
+    "SESSION_COOKIE_DOMAIN": ".sibunglon.com", 
+    "SESSION_COOKIE_NAME": "sessionid", 
+    "SESSION_COOKIE_SECURE": true, 
+    "CROSS_DOMAIN_CSRF_COOKIE_DOMAIN": ".sibunglon.com", 
+    "CROSS_DOMAIN_CSRF_COOKIE_NAME": "csrftoken", 
+    "CSRF_COOKIE_SECURE": false

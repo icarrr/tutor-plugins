@@ -1,0 +1,19 @@
+name: custom-email
+version: 1.0.0
+patches:
+  lms-env: |
+    "BUGS_EMAIL": "research@sibunglon.com", 
+    "BULK_EMAIL_DEFAULT_FROM_EMAIL": "research@sibunglon.com", 
+    "CONTACT_EMAIL": "ganteng@sibunglon.com", 
+    "DEFAULT_FEEDBACK_EMAIL": "research@sibunglon.com", 
+    "DEFAULT_FROM_EMAIL": "research@sibunglon.com", 
+    "SERVER_EMAIL": "research@sibunglon.com", 
+    "TECH_SUPPORT_EMAIL": "research@sibunglon.com"
+  cms-env: |
+    "BUGS_EMAIL": "research@sibunglon.com", 
+    "BULK_EMAIL_DEFAULT_FROM_EMAIL": "research@sibunglon.com", 
+    "CONTACT_EMAIL": "research@sibunglon.com", 
+    "DEFAULT_FEEDBACK_EMAIL": "research@sibunglon.com", 
+    "DEFAULT_FROM_EMAIL": "research@sibunglon.com", 
+    "SERVER_EMAIL": "research@sibunglon.com", 
+    "TECH_SUPPORT_EMAIL": "research@sibunglon.com"

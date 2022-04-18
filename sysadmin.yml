@@ -1,0 +1,5 @@
+name: sysadmin
+version: 1.0.0
+patches:
+  lms-env-features: |
+    "ENABLE_SYSADMIN_DASHBOARD": true
