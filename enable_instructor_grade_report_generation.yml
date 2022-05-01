@@ -1,0 +1,5 @@
+name: enable_instructor_grade_report_generation
+version: 1.0.0
+patches:
+  lms-env-features: |
+    "ALLOW_COURSE_STAFF_GRADE_DOWNLOADS": True
