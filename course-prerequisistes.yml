@@ -1,0 +1,6 @@
+name: course-prerequisistes
+version: 1.0.0
+patches:
+  common-env-features: |
+    "MILESTONES_APP": true,
+    "ENABLE_PREREQUISITE_COURSES": true
