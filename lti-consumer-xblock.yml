@@ -1,0 +1,5 @@
+name: lti-consumer-xblock
+version: 1.0.0
+patches:
+  openedx-dockerfile: |
+    RUN pip install lti-consumer-xblock
